@@ -1,0 +1,23 @@
+{
+  "name": "login_registration",
+  "authors": [
+    "Francisco J Trujillo <francisco.jose1982@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "angular-cookies": "^1.5.8"
+  }
+}

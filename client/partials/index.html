@@ -1,0 +1,14 @@
+<br>
+<div>
+	<div ng-show = "errors" class="ng-hide bg-danger">{{errors}}</div>
+	
+
+	<h3 class="text-danger">Log In</h3>
+	<form class="form-horizontal">
+		<div class="form-group">
+		   <label class="col-md-2 control-label">Patient:</label>
+		   <input type="text" placeholder="Full name" ng-model="user.name">
+	   </div> 
+		   <button type="submit" ng-click="login()" class="btn btn-info btn-sm">Login</button>      
+	</form>
+</div>
